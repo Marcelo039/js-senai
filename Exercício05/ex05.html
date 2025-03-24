@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Juros</title>
+    <link rel="stylesheet" href="ex05.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora de Juros</h2>
+
+        <label for="capital">Capital Inicial (R$):</label>
+        <input type="number" id="capital" placeholder="Ex: 1000">
+
+        <label for="taxa">Taxa de Juros (% ao mês):</label>
+        <input type="number" id="taxa" placeholder="Ex: 5">
+
+        <label for="tempo">Tempo (meses):</label>
+        <input type="number" id="tempo" placeholder="Ex: 12">
+
+        <button onclick="calcularJuros()">Calcular</button>
+
+        <h3 id="resultadoSimples"></h3>
+        <h3 id="resultadoCompostos"></h3>
+    </div>
+
+    <script src="ex05.js"></script>
+</body>
+</html>
