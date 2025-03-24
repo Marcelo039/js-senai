@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatador de Dinheiro</title>
+    <link rel="stylesheet" href="ex04.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formatador de Dinheiro</h2>
+        <label for="valor">Digite um valor:</label>
+        
+        <!-- Input para o usuário digitar -->
+        <input type="number" id="valor" step="0.01" placeholder="Ex: 0.3">
+
+        <!-- Botão para formatar -->
+        <button onclick="formatarValor()">Formatar</button>
+
+        <!-- Exibe o resultado formatado -->
+        <h3 id="resultado"></h3>
+    </div>
+
+    <script src="ex04.js"></script>
+</body>
+</html>
